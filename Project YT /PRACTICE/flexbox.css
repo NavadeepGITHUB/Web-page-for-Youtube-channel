@@ -1,0 +1,29 @@
+.flexbox{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 0px 500px;
+    justify-content:space-around;
+    align-items:center;
+}
+.flexitem{
+    border: 2px solid skyblue;
+    height: 30px;
+    width: 25%;
+    
+}
+.flexbox2{
+    display: flex;
+    border: 2px solid black;
+    height: 100px;
+    width:  400px;
+    justify-content: space-around;
+    margin: 50px 500px;
+    align-items: center;
+}
+.flexitem2{
+    height: 30px;
+    width: 25%;
+    border: 2px solid black;
+}

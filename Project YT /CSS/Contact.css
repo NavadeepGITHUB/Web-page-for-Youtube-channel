@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+/*  font-family: "Mozilla Text", sans-serif;;*/
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Mozilla Text", sans-serif*/
+@font-face {
+    font-family: "beautiful";
+    src: url(../FONTS/BeautifulPoliceOfficer-rvv8x.ttf);
+}
+@font-face {
+    font-family: "fallingsky";
+    src: url(<a href="https://www.fontspace.com/category/android"><img src="https://see.fontimg.com/api/rf5/JKwK/OGM4M2RhMDM2YWEzNDkyYWI2ZWIxNTljNWRmZWQxOGYub3Rm/UmVjb21tZWRlZCB3YXRjaCdz/falling-sky.png?r=fs&h=130&w=2000&fg=000000&bg=FFFFFF&tb=1&s=65" alt="Android fonts"></a>);
+}
+@font-face {
+    font-family: "truefont";
+    src: url(../FONTS/TruenoLight-E2pg.otf);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    background-color: yellow;
+    box-sizing: border-box;
+    margin-bottom: px;
+}
+header a{
+    text-decoration: none;
+    font-family:"Mozilla Text"
+}
+
+  
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    box-sizing: border-box;
+    height: 100px;
+    width: 125px;
+    background-image: url(../IMAGES/Urbanle..LOGO.png);
+    padding-top: 40px;
+    background-position: center;
+    background-size: cover;
+    font-size:24px;
+    padding-left: 140px;
+    color: black;
+    text-shadow: 2px 2px skyblue;
+    transition: .2s;
+}
+.logo:hover{
+    transform: translate(10px);
+    color: skyblue;
+    
+}
+nav{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px skyblue;
+    transition: .11s;
+    
+}
+
+nav a:hover{
+    transform: scale(1.1);
+    color: skyblue;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    border: 2px black;
+    background-image: url(../IMAGES/CBD23A30-7800-4A73-9AF9-0A652586D7A4_Original.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.box{
+    width: 100%;
+    height: 400px;
+    background-color: yellow
+}
+.heading2{
+    font-family: "fallingsky";
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.formAndTable{
+    width: 100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.contactform input, textarea{
+    border-radius: 6.5px;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contactform textarea{
+    height: 125px;
+    display: block;
+}
+.contactform input{
+    border: 1px solid black;
+    display: block;
+}
+.contactform ::placeholder{
+    font-family: "Mozilla Text";
+}
+.contactform button{
+    font-family: "Mozilla Text";
+    width: 100px;
+    padding: 2px;
+    background-color:#2F2F2F ;
+    border: none;
+    color: white;
+    cursor:pointer;
+    transition: .1s;
+}
+.contactform button:hover{
+    transform: scale(1.1);
+}
+.Upcoming{
+    width: 30%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.Upcoming th, .Upcoming td{
+    border: 1px solid black;
+    text-align: center;
+}
+.Upcoming th{
+    font-family:"Mozilla Text"
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color: #0F0326;
+    align-items: center;
+    justify-content: space-between;
+}
+.homee{
+    text-decoration: none;
+}
+footer div{
+    display: flex;
+}
+footer i{
+    
+    color: white;
+}
+footer a{
+    color: white;
+}
+.footerimg{
+    padding-left: 20px;
+    width: 50px;
+}
+footer h1{
+    font-family: "truefont";
+    padding-left: 10px;
+    color: aliceblue;
+}
+footer span{
+    color:aliceblue;
+}
+.links{
+    transition: 0.009s;
+}
+.links:hover{
+    transform: scale(1.1);
+}
+.links2{
+    transition: 0.009s;
+}
+.links2:hover{
+    color: skyblue;
+    transform: scale(1.1);
+}

@@ -1,0 +1,61 @@
+.body{
+    width: 1000px;
+    text-align: center;
+    padding-top: 40px;
+    margin:auto;
+}
+.parent{
+    text-align: center;
+}
+.child1{
+    width: 100px;
+    height: 90px;
+    border: 2px salmon dotted;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+}
+.child2{
+    width: 100px;
+    height: 90px;
+    border: 2px salmon dotted;
+    background-color: green;
+    display: inline-block;
+}
+.child3{
+    width: 100px;
+    height: 90px;
+    border: 2px salmon dotted;
+    background-color: red;
+    display: inline-block;
+
+}
+.child4{
+    width: 100px;
+    height: 90px;
+    border: 2px salmon dotted;
+    background-color: red;
+    display: inline-block;
+
+}
+.child2_position{/*when we use term relative in position it counts px from the top not from the place it is*/ 
+    width: 100px;
+    height: 90px;
+    border: 2px salmon dotted;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 20px
+}
+.child2_pos{/*when we use term absolute in position it counts px from the place it is*/ 
+        width: 100px;
+        height: 90px;
+        border: 2px salmon dotted;
+        background-color: green;
+        display: inline-block;
+        position: absolute;
+        top: 400px;
+        left: 10px
+}
+

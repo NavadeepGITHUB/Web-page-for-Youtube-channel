@@ -1,0 +1,40 @@
+/*REST*/
+*{
+    margin: 0px;padding: 0px;box-sizing: border-box;
+}
+html{
+    background-color: grey;
+}
+body{
+    background-color: black;
+}
+.Mainheading{
+    background-color: lightgray;
+    color: green;
+}
+.sidebar{
+    background-color: silver;
+}
+.sideheading{
+    background-color: darkgray;
+    color: blue;
+    text-decoration: underline;
+}
+.info, .content, .Bigbox{
+    color: white;
+}
+.info{
+    background-color: orange;
+    width: 30%;
+    padding: 20px;
+    display: table-cell;
+}
+.Bigbox{
+    background-color: lightskyblue;
+    padding: 20px;
+    display: table-cell;
+}
+.footer{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "fallingsky";
+    src: url(<a href="https://www.fontspace.com/category/android"><img src="https://see.fontimg.com/api/rf5/JKwK/OGM4M2RhMDM2YWEzNDkyYWI2ZWIxNTljNWRmZWQxOGYub3Rm/UmVjb21tZWRlZCB3YXRjaCdz/falling-sky.png?r=fs&h=130&w=2000&fg=000000&bg=FFFFFF&tb=1&s=65" alt="Android fonts"></a>);
+}
+body{
+    font-family: "fallingsky";
+}
+h1{
+    text-align: center;
+}
+p{
+    width: 60%;
+    background: beige;
+    text-align: center;
+    margin: 10px auto; /*top&bottom - left&rigth*/
+    padding-bottom: 10px;
+}
+/* Small devices*/
+@media only screen and (min-width: 420px){
+    body{
+        background: yellow;
+    }
+}
+/* Iphone-retina*/
+@media only screen and (min-width: 640px){
+    body{
+        background: blue;
+    }
+}
+/* tab*/
+@media only screen and (min-width: 780px){
+    body{
+        background: red;
+    }
+}
+/* laptops*/
+@media only screen and (min-width: 990px){
+    body{
+        background: purple;
+    }
+}
+/* desktop*/
+@media only screen and (min-width: 1200px){
+    body{
+        background: orange;
+    }
+}
